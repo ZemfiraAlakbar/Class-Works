@@ -1,6 +1,6 @@
 # Class-Works
 
-"DEPLOYED WORKS"
+"Deployed Works"
 
 + Form in html - https://courageous-stardust-541e79.netlify.app/
 
