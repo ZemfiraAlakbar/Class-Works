@@ -1,0 +1,243 @@
+#app-parent *{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+} 
+
+/* Header started */
+
+#app-parent .container{
+    max-width: 1200px;
+}
+#app-parent ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 0; 
+} 
+#app-parent .img{
+    display: block;
+}
+#app-parent li{
+    position: relative;
+}
+#app-parent a:hover::after{
+    content: "";
+    border: 2px red solid; 
+    position: absolute;
+    width: 100%;
+    display: block;
+}
+#app-parent header{
+    background-color: rgb(245,245,245);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+#app-parent .title{
+    color: black;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 35px;
+}
+   /* Header finished */
+
+   /* Section 1 */
+   #app-parent .container2{
+    background-image: url(./images/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 42vh;
+   }
+
+   /* Section 1 finished */
+
+   /* Section 2 started */
+   
+#app-parent .container3{
+    margin-left: 160px;
+}
+#app-parent .h1{
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+#app-parent .paragraph{
+    width: 900px;
+     margin-top: 30px;
+    letter-spacing: 2px;
+    color: #212529;
+    font-size: 35px;
+}
+
+#app-parent .line2{
+   margin-left: 35px;
+   margin-bottom: 25px;
+}
+
+#app-parent .scale{
+    overflow: hidden;
+}
+#app-parent .scale img{
+    transition: scale 600ms;
+}
+
+#app-parent .scale:hover img{
+ scale: 140%;
+}
+
+#app-parent .line{
+    margin-top: 30px;
+    width: 120px;
+}
+
+#app-parent .span{
+    font-weight: 500;
+    font-size: 40px;
+}
+#app-parent .span-paragraph{
+    width: 400px;
+    letter-spacing: 2px;
+    color: #212529;
+  
+}
+
+#app-parent .team-gap{
+   margin-top: 80px;
+   padding-bottom: 120px;
+}
+
+/* Section 2 finshed */
+
+/* Section 3 started */
+
+#app-parent .sec3{
+    background-image: url(./images/bgi\ \(1\).png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#app-parent .enjoy{
+    background-color: rgba(15,15,15,0.5);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#app-parent .h1-enjoy{
+    font-size: 80px;
+}
+
+/* Section 3 finished */
+
+/* Section 4 started */
+
+#app-parent .case-all{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: start;
+}
+
+#app-parent .case{
+    height: 300px;
+    width: 300px;
+}
+#app-parent .h1-minion {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+
+#app-parent .case:nth-child(odd){
+    background-color: #8A2BE2;
+}
+
+#app-parent .case:nth-child(even){
+    background-color: #008000;
+}
+
+#app-parent .case:nth-child(odd):hover{
+    background-image: url(./images/minion1.png);
+    border: 1px dashed black;
+    background-position: center;
+    animation: minion 2s;
+}
+
+#app-parent .case:nth-child(odd):hover h1{
+        display: none;
+}
+
+#app-parent .case:nth-child(even):hover{
+        background-image: url(./images/minion2.png);
+        border: 1px dashed black;
+        background-repeat: no-repeat;
+        background-size: cover;
+        animation: minion 2s;
+}
+    
+#app-parent .case:nth-child(even):hover h1{
+            display: none;
+}
+
+@keyframes minion {
+    0% {
+        transform: rotateX(0deg);
+      }
+      50% {
+        transform: rotateX(90deg);
+      }
+      100% {
+        transform: rotateX(0deg);
+      }
+}
+
+/* Section 4 finished */
+
+/* Section 5 started */
+
+#app-parent .sec5{
+        border: 1px solid black;
+        height: 100vh;
+        background-color: rgb(245,245,245);
+    }
+
+    #app-parent #select{
+       width: 100%;
+    }
+
+    #app-parent .main-text{
+        font-size: 60px;
+    }
+
+    #app-parent .heading2{
+        font-size: 60px;
+    }
+
+    #app-parent .heading1{
+        font-size: 80px;
+    }
+
+    #app-parent .submit{
+       width: 100%;
+       background-color: #EEC337;
+       border: none;
+       margin-top: 30px;
+       color: #424240;
+       padding: 10px;
+    }
+
+     #app-parent select{
+        color: #757575;
+    }
+
+    /* Section 5 finished */
