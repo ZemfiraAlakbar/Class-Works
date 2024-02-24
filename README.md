@@ -12,4 +12,4 @@
 
 + bootstrap - https://spiffy-melba-158124.netlify.app/
 
-+CodeAcademy - https://cool-blancmange-b704e9.netlify.app/#sec2
++ CodeAcademy - https://cool-blancmange-b704e9.netlify.app/#sec2
